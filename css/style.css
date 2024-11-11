@@ -120,11 +120,79 @@ a:hover {
 }
 
 footer {
-    text-align: center;
-    padding: 1rem;
+    text-align: left;
+    padding: 2rem;
     background: #004b87;
     color: white;
 }
 
+.error {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    text-align: center;
+}
 
+.error h1 {
+    line-height: 1em;
+    font-size: 6rem;
+    color: #00274C;
+    text-align: center;
+    padding: 1rem 0;
+}
 
+.error h2 {
+    line-height: 1.2em;
+    font-size: 2rem;
+    color: #00274C;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.error img {
+    width: 50%;
+    height: auto;
+    margin: 1rem 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.error .explore_options {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+    margin: 1rem auto;
+    text-align: left;
+    color: #00274C;
+}
+
+.error .explore_options h3 {
+    font-size: 1.5rem;
+    color: #00274C;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.error .explore_options a {
+    display: block;
+    font-size: 1rem;
+    color: #004b87;
+    text-decoration: none;
+    padding: 0.5rem 0;
+}
+
+.error .explore_options a:hover {
+    color: #FFCB05;
+    text-decoration: underline;
+}
+
+.error p {
+    line-height: 1.5;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1rem;
+}
