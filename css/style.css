@@ -17,6 +17,7 @@ header img {
 
 nav ul {
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
     margin-top: 2rem;
     padding: 1rem;
