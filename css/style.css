@@ -98,6 +98,8 @@ img {
     border: 8px solid #FFCB05;
     height: auto;
     border-radius: 5px;
+    width: 80%;
+    max-width: 100%;
 }
 
 #logo {
@@ -203,4 +205,65 @@ footer {
     max-width: 600px;
     margin: 0 auto;
     font-size: 1rem;
+}
+
+/* * The following code is heavily based off of skeleton code on Codepen
+*    Title: Simple Skeleton Contact Form
+*    Author: Codepen
+*    Date: 2024
+*    Source: https://codepen.io/formbucket/pen/wzwyGx  */
+
+.form-box {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 120px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #004b87;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #00274C;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 100%;
+        max-width: 1024px;
+        margin: 0 auto;
+      }
+    img {
+        max-width: 100%;
+        min-width: 100%;
+        height: auto;
+      }
 }
