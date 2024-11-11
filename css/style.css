@@ -15,11 +15,14 @@ header img {
     height: auto;
 }
 
-nav ul li {
+nav ul {
     display: flex;
-    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
     padding: 1rem;
     background-color: #004b87;
+    border-radius: 5px;
+    border: solid 1px rgb(112, 112, 112);
 }
 
 nav a {
@@ -35,6 +38,11 @@ nav a.active {
     font-weight: bold;
     color: #FFCB05;
     border-bottom: 2px solid #FFCB05;
+    background-color: #FFCB05;
+    color: #00274C;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: underline;
 }
 
 main {
@@ -116,7 +124,7 @@ img {
 
 a:hover {
     text-decoration: underline;
-    color: #ff0505;
+    color: #00B2A9;
 }
 
 footer {
